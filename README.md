@@ -272,7 +272,7 @@ If you find this project helpful, consider:
 
 <div align="center">
 
-**Made with ❤️ by developers, for developers**
+**Made with ❤️ by nerd, for nerds**
 
 [Get Started](https://dainty-travesseiro-344401.netlify.app/) • [Documentation](https://github.com/theoblondel/KauryUI) • [Support](https://buy.stripe.com/5kAaIo03wgAb2S4aEW)
 
