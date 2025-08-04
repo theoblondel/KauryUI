@@ -8,4 +8,5 @@ services:
       - "2053:80"
     restart: unless-stopped
     volumes:
-      - ./public-html:/usr/local/apache2/htdocs/
+      - ./public:/usr/local/apache2/htdocs/
+
