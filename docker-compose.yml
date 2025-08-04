@@ -2,12 +2,10 @@ version: '3'
 
 services:
   kauryui:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: httpd:alpine
     container_name: kauryui
     ports:
-      - "2052:80"
+      - "2053:80"
     restart: unless-stopped
-
-
+    volumes:
+      - ./public-html:/usr/local/apache2/htdocs/
