@@ -6,7 +6,6 @@ services:
     container_name: kauryui
     ports:
       - "2053:80"
-    restart: unless-stopped
     volumes:
-      - ./public:/usr/local/apache2/htdocs/
-
+      - ./public-html:/usr/local/apache2/htdocs/
+    restart: unless-stopped
