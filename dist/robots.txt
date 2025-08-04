@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dainty-travesseiro-344401.netlify.app/sitemap.xml
